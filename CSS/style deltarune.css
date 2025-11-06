@@ -1,0 +1,70 @@
+  @font-face {
+    font-family: 'Pixel Operator';
+    src: url(./PixelOperator-Bold.woff2) format(woff2);
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+  font-family: 'Pixel Operator';
+  background-color: black;
+}
+p{
+  color: white;
+}
+h1{
+  color: white;
+}
+h6{
+  color: white;
+}
+header{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  top: 0%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 4;
+}
+.HEADER__TEXT{
+  margin-left: 20px;
+}
+#logo_Deltarune{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+#carouselExampleIndicators{
+  display: block;
+  width: 300px;
+  height: 150px;
+  margin: 80px;
+}
+main{
+  width: 80%;
+  margin: 13% auto 0%;
+}
+.ARTICLE__TEXT{
+  margin-top: 10px;
+}
+footer{
+  border-top: 10px;
+  border-style: solid;
+  border-color: white;
+  padding-left: 30px;
+}
+@media (max-width: 768px) {
+  main{
+    margin: 55% auto 0%;
+  }
+  header{
+    font-size: small;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  main{
+    margin: 25% auto 0%
+  }
+}
